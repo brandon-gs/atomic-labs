@@ -1,0 +1,36 @@
+.dashboard {
+  display: flex;
+  width: 100%;
+  height: calc(100% - 100px);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-height: 800px;
+}
+
+.dashboard__first__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard__image {
+  height: 400px;
+  width: auto;
+  max-height: 400px;
+}
+
+@media only screen and (max-width: 930px) {
+  .dashboard__image {
+    height: 340px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .dashboard__image {
+    height: 250px;
+  }
+  .dashboard__first__section {
+    flex-direction: column;
+  }
+}

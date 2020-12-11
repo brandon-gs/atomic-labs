@@ -1,0 +1,30 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 24px;
+}
+
+.welcome__message {
+  font-size: 48px;
+  margin: 0px;
+}
+
+.welcome__link__container {
+  margin-top: 40px;
+}
+
+.message__white {
+  color: var(--white);
+}
+
+.message__orange {
+  color: var(--orange);
+}
+
+@media only screen and (max-width: 930px) {
+  .welcome__message {
+    font-size: 32px;
+  }
+}

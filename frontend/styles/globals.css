@@ -1,3 +1,9 @@
+:root {
+  --orange: #ff4c00;
+  --white: #ffffff;
+  --blue: #1073af;
+}
+
 html,
 body {
   padding: 0;
@@ -6,8 +12,58 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-.background: {
-  backgroundImage: url('/assets/img/background_1.png');
+html,
+body,
+#__next,
+.page__container {
+  width: 100%;
+  height: 100%;
+}
+
+.background-main {
+  background: url("/assets/img/background_1.png") no-repeat center center/cover;
+  position: fixed;
+  top: -2.1%;
+  left: -1%;
+  min-height: 110%;
+  min-width: 110%;
+  z-index: -1000;
+}
+
+.text__orange {
+  color: var(--orange);
+}
+
+.text__white {
+  color: var(--white);
+}
+
+.font__1 {
+  font-size: 56px;
+}
+
+.font__2 {
+  font-size: 48px;
+}
+
+.font__3 {
+  font-size: 40px;
+}
+
+.font__4 {
+  font-size: 32px;
+}
+
+.font__5 {
+  font-size: 24px;
+}
+
+.font__6 {
+  font-size: 16px;
+}
+
+.font__7 {
+  font-size: 8px;
 }
 
 * {

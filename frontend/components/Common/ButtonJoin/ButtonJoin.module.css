@@ -1,0 +1,22 @@
+.button__join {
+  background-color: var(--white);
+  border-radius: 40px;
+  color: var(--blue);
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 8px 32px;
+  text-decoration: none;
+  transition: all 0.25s;
+}
+
+.button__join:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+@media only screen and (max-width: 930px) {
+  .button__join {
+    font-size: 16px;
+  }
+}
