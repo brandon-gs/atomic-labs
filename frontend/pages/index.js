@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import Head from "next/head";
-import { Navbar } from "components";
-import Dashboard from "components/Index-page/Dashboard";
+import { Navbar, Dashboard } from "components";
 
 export default function Home() {
   return (
