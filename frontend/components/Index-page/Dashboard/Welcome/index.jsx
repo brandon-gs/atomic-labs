@@ -6,8 +6,8 @@ import styles from "./Welcome.module.css";
 
 export default function Welcome() {
   // Merged classes
-  const textOrange = clsx(styles.welcome__message, styles.message__orange);
-  const textWhite = clsx(styles.welcome__message, styles.message__white);
+  const textOrange = clsx(styles.welcome__message, "text__orange");
+  const textWhite = clsx(styles.welcome__message, "text__white");
 
   return (
     <section className={styles.welcome}>

@@ -1,0 +1,27 @@
+.card {
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.card__image {
+  height: 320px;
+  background: no-repeat;
+  background-size: auto;
+  background-position: top;
+}
+
+.card__list {
+  max-width: 300px;
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+}
+
+.card__list__item {
+  margin-top: 16px;
+}
+
+.card__list__image {
+  width: 20px;
+  margin-right: 10px;
+}
