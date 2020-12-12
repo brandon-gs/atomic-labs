@@ -104,25 +104,3 @@ body,
 .font__7 {
   font-size: 8px;
 }
-
-.features__background__secondary {
-  position: absolute;
-  bottom: -0px;
-  width: 100%;
-  height: 1050px;
-  border-radius: 150px 150px 0 0;
-  z-index: 1;
-  background: var(--blue) no-repeat center center/cover;
-}
-
-@media only screen and (max-width: 963px) {
-  .features__background__secondary {
-    height: 1500px;
-  }
-}
-
-@media only screen and (max-width: 663px) {
-  .features__background__secondary {
-    height: 2040px;
-  }
-}

@@ -14,7 +14,7 @@ export default function Home() {
       <About />
       <WorkWithUs />
       <Features />
-      <div className={"features__background__secondary"} />
+
       <Footer />
     </Fragment>
   );

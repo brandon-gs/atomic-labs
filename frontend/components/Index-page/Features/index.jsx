@@ -17,6 +17,8 @@ export default function Features() {
         <FeatureCard img={featuresCardImages[2]} items={featuresCardItems[2]} />
       </div>
       <FeaturesTable />
+      <div className={styles.features__background} />
+      <div className={styles.features__background__secondary} />
     </section>
   );
 }
