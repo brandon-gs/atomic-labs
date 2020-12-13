@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev frontend/",
     "build": "next build frontend/",
-    "start": "next start frontend/"
+    "start": "next start frontend/ -p $PORT",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "clsx": "^1.1.1",
