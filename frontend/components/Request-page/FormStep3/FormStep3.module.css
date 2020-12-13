@@ -1,0 +1,27 @@
+.form__subtitle {
+  font-weight: none;
+  letter-spacing: 2px;
+}
+
+.edit__phone__container {
+  display: flex;
+  max-width: 250px;
+}
+
+.resend__container {
+  position: relative;
+  top: -90px;
+  letter-spacing: 1px;
+}
+
+.resend,
+.resend:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.icon__edit {
+  cursor: pointer;
+  margin-left: 20px;
+}

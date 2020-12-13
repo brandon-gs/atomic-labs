@@ -1,0 +1,40 @@
+.form__subtitle {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.open__modal {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.checkbox__container {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.checkbox__image {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+.send__button {
+  cursor: not-allowed;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    var(--orange);
+  color: var(--white);
+  font-size: 20px;
+  width: 208px;
+  height: 48px;
+  border-radius: 28px;
+  border: none;
+  padding: 0 60px;
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-right: 20px;
+}
+.send__button__image {
+  position: absolute;
+  right: 25px;
+}

@@ -1,0 +1,32 @@
+.success {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.success__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.success__image__checkmark {
+  width: 80px;
+  height: 80px;
+}
+
+.success__image__plane {
+  width: auto;
+}
+
+.sucess__message {
+  margin: 10px;
+  font-size: 21px;
+  max-width: 380px;
+  text-align: center;
+  color: var(--white);
+  letter-spacing: 2px;
+}

@@ -1,0 +1,22 @@
+.form__title {
+  width: 100%;
+  text-align: left;
+  max-width: 801px;
+  margin: 32px 0;
+}
+
+.form__title__image {
+  max-height: 50px;
+  max-width: 50px;
+  margin: 0 24px 0 0;
+}
+
+@media only screen and (max-width: 840px) {
+  .form__title {
+    font-size: 34px;
+  }
+  .form__title__image {
+    max-height: 34px;
+    max-width: 34px;
+  }
+}

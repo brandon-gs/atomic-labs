@@ -14,7 +14,6 @@ export default function Home() {
       <About />
       <WorkWithUs />
       <Features />
-
       <Footer />
     </Fragment>
   );

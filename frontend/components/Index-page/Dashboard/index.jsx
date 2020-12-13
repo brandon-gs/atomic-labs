@@ -6,17 +6,21 @@ import styles from "./Dashboard.module.css";
 
 export default function Dashboard() {
   return (
-    <main className={styles.dashboard}>
-      <div className={styles.dashboard__first__section}>
-        <div className="background-main" />
-        <img
-          className={styles.dashboard__image}
-          src="/assets/img/dashboard.png"
-          alt="personaje de atomic labs"
-        />
-        <Welcome />
-      </div>
-      <MoreInfo />
-    </main>
+    <>
+      <main className={styles.dashboard}>
+        <div className="background-wrapper">
+          <div className="background-main" />
+        </div>
+        <div className={styles.dashboard__first__section}>
+          <img
+            className={styles.dashboard__image}
+            src="/assets/img/dashboard.png"
+            alt="personaje de atomic labs"
+          />
+          <Welcome />
+        </div>
+        <MoreInfo />
+      </main>
+    </>
   );
 }
