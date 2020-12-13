@@ -61,7 +61,12 @@ export default function FormStep3() {
       {!editMode ? (
         <h3 className={styles.edit__phone__container}>
           {`+52 ${formatPhone(phone)}`}
-          <MdModeEdit className={styles.icon__edit} onClick={activeEditMode} />
+          <img
+            src="/assets/img/edit.png"
+            alt="Boton para editar"
+            className={styles.icon__edit}
+            onClick={activeEditMode}
+          />
         </h3>
       ) : (
         <Fragment>
