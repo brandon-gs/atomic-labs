@@ -1,7 +1,13 @@
 import { Fragment } from "react";
 import Head from "next/head";
-import { Navbar, Dashboard, About, WorkWithUs, Features } from "components";
-import Footer from "components/Layout/Footer";
+import {
+  Navbar,
+  Dashboard,
+  About,
+  WorkWithUs,
+  Features,
+  Footer,
+} from "components";
 
 export default function Home() {
   return (
@@ -11,7 +17,6 @@ export default function Home() {
       </Head>
       <Navbar />
       <Dashboard />
-      <div className="background-secondary" />
       <About />
       <WorkWithUs />
       <Features />
