@@ -14,6 +14,7 @@ export default function Home() {
     <Fragment>
       <Head>
         <title>Atomic Labs</title>
+        <meta name="viewport" content="width=1200" />
       </Head>
       <Navbar />
       <Dashboard />
