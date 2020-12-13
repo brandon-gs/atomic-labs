@@ -24,12 +24,12 @@ Dillinger uses a number of open source projects to work properly:
 
 ### Screenshots
 
-<img src="https://github.com/brandon-gs/sortmash/blob/master/docs/screenshot_1.png" />
+<img src="https://github.com/brandon-gs/atomic-labs/blob/v1/docs/screenshot_1.png" />
 
-<img src="https://github.com/brandon-gs/sortmash/blob/master/docs/screenshot_2.png" />
+<img src="https://github.com/brandon-gs/atomic-labs/blob/v1/docs/screenshot_2.png" />
 
-<img src="https://github.com/brandon-gs/sortmash/blob/master/docs/screenshot_3.png" />
+<img src="https://github.com/brandon-gs/atomic-labs/blob/v1/docs/screenshot_3.png" />
 
-<img src="https://github.com/brandon-gs/sortmash/blob/master/docs/screenshot_4.png" />
+<img src="https://github.com/brandon-gs/atomic-labs/blob/v1/docs/screenshot_4.png" />
 
-<img src="https://github.com/brandon-gs/sortmash/blob/master/docs/screenshot_5.png" />
+<img src="https://github.com/brandon-gs/atomic-labs/blob/v1/docs/screenshot_5.png" />
