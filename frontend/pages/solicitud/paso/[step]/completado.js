@@ -1,3 +1,4 @@
+import Head from "next/head";
 import SuccessStep from "components/Common/SuccessStep";
 
 export default function StepCompleted({ step }) {
@@ -9,11 +10,16 @@ export default function StepCompleted({ step }) {
     "Hemos validado el código",
   ];
   return (
-    <SuccessStep
-      image={images[step - 1]}
-      message={messages[step - 1]}
-      href={`/solicitud/paso/${step + 1}`}
-    />
+    <>
+      <Head>
+        <title>Atomic Labs | Paso completado</title>
+      </Head>
+      <SuccessStep
+        image={images[step - 1]}
+        message={messages[step - 1]}
+        href={`/solicitud/paso/${step + 1}`}
+      />
+    </>
   );
 }
 
