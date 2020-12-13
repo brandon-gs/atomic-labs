@@ -11,6 +11,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Dashboard />
+      <div className="background-secondary" />
       <About />
       <WorkWithUs />
       <Features />

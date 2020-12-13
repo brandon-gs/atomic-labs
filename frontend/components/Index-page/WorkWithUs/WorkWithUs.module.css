@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: center;
   padding: 48px 0;
-  background: var(--blue-dark) no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/img/background_2.jpg") center center/cover;
 }
 
 .work__image {
