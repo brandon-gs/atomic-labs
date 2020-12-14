@@ -17,7 +17,7 @@ export default function FormStep1() {
     <>
       <ModalTerms open={openModal} setOpenModal={setOpenModal} />
       <FormTitle normalText="términos y" featuredText="condiciones" />
-      <p className={styles.form__subtitle}>
+      <p className={"form__subtitle"}>
         Por favor revisa nuestros términos y condiciones para este servicio:
       </p>
       <p className={styles.open__modal} onClick={handleOpenModal}>

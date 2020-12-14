@@ -32,7 +32,7 @@ export default function FormStep1() {
     <>
       <form onSubmit={handleSubmit} className="form">
         <FormTitle normalText="te queremos" featuredText="conocer" />
-        <h3>
+        <h3 className="form__subtitle">
           Queremos saber que eres tú, por favor ingresa los siguientes datos:
         </h3>
         <InputField

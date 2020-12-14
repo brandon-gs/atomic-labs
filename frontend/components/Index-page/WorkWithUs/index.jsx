@@ -9,7 +9,7 @@ export default function WorkWithUs() {
     <section
       className={styles.work}
       style={{
-        backgroundImage: `url(${process.env.ASSET_PREFIX}/assets/img/background_2.jpg)`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(${process.env.ASSET_PREFIX}/assets/img/background_2.jpg)`,
       }}
     >
       <h2 className={"title text__white"}>¡Te encantará</h2>

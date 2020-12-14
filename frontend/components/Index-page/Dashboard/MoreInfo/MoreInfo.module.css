@@ -11,18 +11,20 @@
 .moreInfo__text {
   margin: 0;
   color: var(--white);
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .moreInfo__image {
-  width: 50px;
+  width: 60px;
 }
 
 @keyframes movedown {
   0% {
-    top: 10px;
+    top: -20px;
   }
   100% {
-    top: -10px;
+    top: -40px;
   }
 }
 

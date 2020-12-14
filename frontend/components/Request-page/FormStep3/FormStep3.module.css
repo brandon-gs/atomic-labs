@@ -1,6 +1,14 @@
-.form__subtitle {
-  font-weight: none;
-  letter-spacing: 2px;
+.form__subtitle,
+.edit__phone__container {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.form__label {
+  position: relative;
+  top: 10px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .edit__phone__container {
@@ -10,8 +18,9 @@
 
 .resend__container {
   position: relative;
-  top: -90px;
-  letter-spacing: 1px;
+  top: -115px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .resend,
@@ -24,4 +33,6 @@
 .icon__edit {
   cursor: pointer;
   margin-left: 20px;
+  max-width: 24px;
+  max-height: 24px;
 }

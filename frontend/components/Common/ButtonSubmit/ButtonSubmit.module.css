@@ -7,7 +7,8 @@
   width: 220px;
   height: 48px;
   color: var(--white);
-  font-size: 21px;
+  font-size: 20px;
+  font-weight: 600;
   letter-spacing: 1px;
   margin-top: 32px;
   transition: all 0.25s;

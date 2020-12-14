@@ -28,7 +28,7 @@ export default function CurrentStep() {
           <div
             className={"background-3"}
             style={{
-              backgroundImage: `url(${process.env.ASSET_PREFIX}/assets/img/background_3.jpg)`,
+              backgroundImage: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(${process.env.ASSET_PREFIX}/assets/img/background_3.jpg)`,
             }}
           />
           <section className="form__container">

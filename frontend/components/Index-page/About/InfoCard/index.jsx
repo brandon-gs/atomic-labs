@@ -7,6 +7,7 @@ export default function InfoCard({
   items = ["test 1", "test 2", "test 3"],
   featuredWords = ["test 1"],
   featured = false,
+  position = 0,
 }) {
   const highlightWord = (word, idx) => {
     /*
@@ -29,7 +30,11 @@ export default function InfoCard({
   // Dinamic Styles if card is marked as featured
   const cardClass = featuredClass(
     clsx(styles.card, styles.featured),
-    styles.card
+    clsx(
+      styles.card,
+      position === 1 && styles.card__1,
+      position === 3 && styles.card__3
+    )
   );
   const titleClass = featuredClass("text__white", "text__orange");
   const listClass = featuredClass("text__white", "text__blue__dark");
@@ -39,7 +44,8 @@ export default function InfoCard({
   );
   const imageClass = featuredClass(
     styles.card__image__featured,
-    styles.card__image
+    position === 1 && styles.card__image__1,
+    position === 3 && styles.card__image__3
   );
 
   return (

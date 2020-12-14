@@ -21,9 +21,11 @@ export default function InputField({
       className={styles.input__container}
       style={{ maxWidth: sizeContainer }}
     >
-      <label htmlFor="name" className={styles.input__label}>
-        {label}
-      </label>
+      {label && (
+        <label htmlFor="name" className={styles.input__label}>
+          {label}
+        </label>
+      )}
       {img && (
         <img
           src={img}

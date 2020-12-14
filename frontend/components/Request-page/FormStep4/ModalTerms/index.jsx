@@ -6,7 +6,11 @@ export default function ModalTerms({ open, setOpenModal }) {
     return (
       <section className={styles.modal} onClick={closeModal}>
         <div className={styles.modal__content}>
-          <img src={`${process.env.ASSET_PREFIX}/assets/img/important.png`} />
+          <img
+            src={`${process.env.ASSET_PREFIX}/assets/img/important.png`}
+            alt="Importante"
+            className={styles.modal__image}
+          />
           <p className={styles.modal__title}>Términos y Condiciones</p>
           <p className={styles.modal__text}>
             Para llevar acabo las finalidades descritas en el presente Aviso de

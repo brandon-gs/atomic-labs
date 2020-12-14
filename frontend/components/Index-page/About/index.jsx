@@ -11,7 +11,7 @@ export default function About() {
       className={styles.about}
       id="about"
       style={{
-        backgroundImage: `url(${process.env.ASSET_PREFIX}/assets/img/background_2.jpg)`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${process.env.ASSET_PREFIX}/assets/img/background_2.jpg)`,
       }}
     >
       <h2 className={"title text__white"}>Somos el brazo derecho</h2>
@@ -22,12 +22,14 @@ export default function About() {
           title="Explora"
           items={listItems[0]}
           featuredWords={featuredWords[0]}
+          position={1}
         />
         <InfoCard
           img={`${process.env.ASSET_PREFIX}/assets/img/imagine.png`}
           title="Imagina"
           items={listItems[1]}
           featuredWords={featuredWords[1]}
+          position={2}
           featured
         />
         <InfoCard
@@ -35,6 +37,7 @@ export default function About() {
           title="Conquista"
           items={listItems[2]}
           featuredWords={featuredWords[2]}
+          position={3}
         />
       </div>
     </section>

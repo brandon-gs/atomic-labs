@@ -79,9 +79,10 @@ body,
 
 .title {
   text-align: center;
-  font-size: 48px;
+  font-size: 50px;
   margin: 0;
   text-transform: uppercase;
+  font-weight: 800;
 }
 
 .text__white {
@@ -98,6 +99,22 @@ body,
 
 .text__blue__dark {
   color: var(--blue-dark);
+}
+
+.font__regular {
+  font-weight: 400;
+}
+
+.font__semi__bold {
+  font-weight: 600;
+}
+
+.font__bold {
+  font-weight: 700;
+}
+
+.font__extra__bold {
+  font-weight: 800;
 }
 
 .font__1 {
@@ -124,10 +141,6 @@ body,
   font-size: 16px;
 }
 
-.font__7 {
-  font-size: 8px;
-}
-
 .footer__space {
   width: 100%;
   min-height: 130px;
@@ -142,6 +155,17 @@ body,
 .form__button {
   display: flex;
   justify-content: flex-end;
+}
+
+.form__subtitle,
+.form__subtitle__2 {
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.form__subtitle__2 {
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 909px) {

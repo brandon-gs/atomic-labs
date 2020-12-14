@@ -73,10 +73,14 @@ export default function FormStep3() {
           <FormPhone onSubmit={disableEditMode} />
         </Fragment>
       )}
-      <h4>Ingresa el código de verificación:</h4>
+      <h4 className={"form__subtitle__2"}>
+        Ingresa el código de verificación:
+      </h4>
       <form onSubmit={handleSubmit} className="form">
+        <label htmlFor="code" className={styles.form__label}>
+          Código de verificación
+        </label>
         <InputField
-          label="Código de verificación"
           name="code"
           type="text"
           onChange={handleChange}

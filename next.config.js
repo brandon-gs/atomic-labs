@@ -5,7 +5,7 @@ const prefix = "/atomic-labs";
 module.exports = {
   dir: "./frontend",
   assetPrefix: !debug ? prefix : "",
-  basePath: prefix,
+  basePath: !debug ? prefix : "",
   env: {
     ASSET_PREFIX: !debug ? prefix : "",
   },
