@@ -40,8 +40,7 @@ body,
 }
 
 .background-main {
-  background: url("/assets/img/background_1@2x.png") no-repeat center
-    center/cover;
+  background: url("/assets/img/background_1.png") no-repeat center center/cover;
   position: fixed;
   top: -2.1%;
   left: -1%;
