@@ -7,10 +7,12 @@ class MyDocument extends Document {
   }
 
   render() {
+    const prefix = this.props.__NEXT_DATA__.assetPrefix;
     return (
       <Html lang="es">
         <Head>
-          <link rel="stylesheet" href="/css/nprogress.css" />
+          <link rel="stylesheet" href={`${prefix}/css/globals.css`} />
+          <link rel="stylesheet" href={`${prefix}/css/nprogress.css`} />
         </Head>
         <body>
           <Main />

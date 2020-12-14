@@ -12,12 +12,12 @@ export default function Footer() {
         </Link>
         <div className={styles.footer_social__container}>
           <img
-            src="/assets/img/linkedin.png"
+            src={`${process.env.ASSET_PREFIX}/assets/img/linkedin.png`}
             alt="Logo de Linkedin"
             className={styles.footer__social}
           />
           <img
-            src="/assets/img/twitter.png"
+            src={`${process.env.ASSET_PREFIX}/assets/img/twitter.png`}
             alt="Logo de Twitter"
             className={styles.footer__social}
           />

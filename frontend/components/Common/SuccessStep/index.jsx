@@ -23,7 +23,12 @@ export default function SuccessStep({ message, image, href }) {
 
   return (
     <>
-      <div className="background-3" />
+      <div
+        className="background-3"
+        style={{
+          backgroundImage: `url(${process.env.ASSET_PREFIX}/assets/img/background_3.jpg)`,
+        }}
+      />
       <section className={styles.success}>
         <div className={styles.success__container}>
           <img src={image} alt="Marca de verifacion" className={imageClass} />

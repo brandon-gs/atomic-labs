@@ -39,7 +39,7 @@ export default function FormStep1() {
           label="Nombre (s)"
           name="name"
           type="text"
-          img="/assets/img/ic_lock_24px.png"
+          img={`${process.env.ASSET_PREFIX}/assets/img/ic_lock_24px.png`}
           onChange={handleChange}
           onBlur={handleBlur}
           value={values.name}
@@ -50,7 +50,7 @@ export default function FormStep1() {
           label="Apellidos"
           name="lastnames"
           type="text"
-          img="/assets/img/ic_lock_24px.png"
+          img={`${process.env.ASSET_PREFIX}/assets/img/ic_lock_24px.png`}
           onChange={handleChange}
           onBlur={handleBlur}
           value={values.lastnames}

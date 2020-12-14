@@ -62,7 +62,7 @@ export default function FormStep3() {
         <h3 className={styles.edit__phone__container}>
           {`+52 ${formatPhone(phone)}`}
           <img
-            src="/assets/img/edit.png"
+            src={`${process.env.ASSET_PREFIX}/assets/img/edit.png`}
             alt="Boton para editar"
             className={styles.icon__edit}
             onClick={activeEditMode}

@@ -6,7 +6,8 @@
     "dev": "next dev frontend/",
     "build": "next build frontend/",
     "start": "next start frontend/ -p $PORT",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "deploy": "rm -rf node_modules/.cache && next build frontend/ && next export frontend/ && touch frontend/out/.nojekyll && git add frontend/out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix frontend/out origin gh-pages"
   },
   "dependencies": {
     "clsx": "^1.1.1",
@@ -18,8 +19,9 @@
     "react-icons": "^4.1.0"
   },
   "devDependencies": {
+    "babel-plugin-transform-define": "^2.0.0",
     "eslint": "^7.15.0"
-  }, 
+  },
   "engines": {
     "node": ">=10"
   }

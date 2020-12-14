@@ -2,7 +2,7 @@ import Head from "next/head";
 import SuccessStep from "components/Common/SuccessStep";
 
 export default function StepCompleted({ step }) {
-  const checkmarkImage = "/assets/img/checkmark@2x.png";
+  const checkmarkImage = `${process.env.ASSET_PREFIX}/assets/img/checkmark@2x.png`;
   const images = [null, checkmarkImage, checkmarkImage];
   const messages = [
     null,

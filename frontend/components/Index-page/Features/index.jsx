@@ -9,7 +9,12 @@ import { featuresCardImages, featuresCardItems } from "./data";
 
 export default function Features() {
   return (
-    <section className={styles.features}>
+    <section
+      className={styles.features}
+      style={{
+        backgroundImage: `url(${process.env.ASSET_PREFIX}/assets/img/background_2.jpg)`,
+      }}
+    >
       <h2 className="title text__white">
         ¿Por qué <span className="text__orange">atomic?</span>
       </h2>

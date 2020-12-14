@@ -2,7 +2,7 @@ import Head from "next/head";
 import { SuccessStep } from "components";
 
 export default function Resend() {
-  const image = ["/assets/img/plane_icon.png"];
+  const image = [`${process.env.ASSET_PREFIX}/assets/img/plane_icon.png`];
   const message = "Te estamos reenviando el código";
   return (
     <>
