@@ -2,7 +2,7 @@
 
 ## Demo
 
-You can watch the page [here](https://atomiclabs.herokuapp.com/)
+You can watch the page [here](https://brandon-gs.github.io/atomic-labs/)
 
 ### Getting Started
 
