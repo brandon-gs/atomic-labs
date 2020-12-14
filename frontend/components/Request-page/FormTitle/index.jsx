@@ -8,7 +8,7 @@ export default function FormTitle({ normalText, featuredText }) {
   return (
     <h2 className={`title text__white ${styles.form__title}`}>
       <img
-        src={`/assets/img/number_${step}_fill.png`}
+        src={`${process.env.ASSET_PREFIX}/assets/img/number_${step}_fill.png`}
         alt="Numero 1"
         className={styles.form__title__image}
       />

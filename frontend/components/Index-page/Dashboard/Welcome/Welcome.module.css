@@ -11,6 +11,22 @@
   margin: 0px;
 }
 
+.message__1 {
+  font-size: 62px;
+}
+
+.message__2 {
+  font-size: 66px;
+}
+
+.message__3 {
+  font-size: 52px;
+}
+
+.message__4 {
+  font-size: 69px;
+}
+
 .welcome__link__container {
   margin-top: 40px;
 }

@@ -25,14 +25,19 @@ export default function CurrentStep() {
     <>
       <div className={styles.container}>
         <main className={styles.currentStep}>
-          <div className={"background-3"} />
+          <div
+            className={"background-3"}
+            style={{
+              backgroundImage: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(${process.env.ASSET_PREFIX}/assets/img/background_3.jpg)`,
+            }}
+          />
           <section className="form__container">
             <Stepper step={step} />
             {step > 1 && <PreviousStep />}
             {forms[step - 1]}
           </section>
           <img
-            src={`/assets/img/step_${stepImage}.png`}
+            src={`${process.env.ASSET_PREFIX}/assets/img/step_${stepImage}.png`}
             className={clsx(styles.currentStep__image, imagesClasses[step - 1])}
           />
         </main>

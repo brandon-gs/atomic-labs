@@ -3,6 +3,9 @@
   text-align: left;
   max-width: 801px;
   margin: 32px 0;
+  font-size: 46px;
+  font-weight: 800;
+  letter-spacing: -0.69px;
 }
 
 .form__title__image {

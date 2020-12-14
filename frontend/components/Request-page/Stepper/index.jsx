@@ -7,7 +7,7 @@ export default function Stepper() {
   const { step } = useStep();
   const currentProgress = [155, 320, 490, 655];
   const widthProgress = currentProgress[step - 1];
-  const path = "/assets/img/";
+  const path = `${process.env.ASSET_PREFIX}/assets/img/`;
 
   const getImageName = (stepToGet) => {
     const isFirstStep = stepToGet === 1 && step === 1;

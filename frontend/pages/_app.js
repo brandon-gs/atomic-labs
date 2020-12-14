@@ -1,4 +1,3 @@
-import "../styles/globals.css";
 import { Provider } from "context";
 import { motion } from "framer-motion";
 import NProgress from "nprogress";

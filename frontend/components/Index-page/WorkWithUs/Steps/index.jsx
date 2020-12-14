@@ -26,7 +26,7 @@ export default function Steps({
             <Fragment key={`step-${index}`}>
               {stepElement}
               <img
-                src="/assets/img/next_step.png"
+                src={`${process.env.ASSET_PREFIX}/assets/img/next_step.png`}
                 alt="Siguiente paso"
                 className={styles.step__image}
               />

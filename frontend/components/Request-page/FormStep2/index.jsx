@@ -41,8 +41,12 @@ export default function FormStep2() {
   return (
     <form onSubmit={handleSubmit} className="form">
       <FormTitle normalText="valida tu" featuredText="celular" />
-      <h3>Necesitamos validar tu número para continuar</h3>
-      <h4>Ingresa tu número a 10 dígitos y te enviaremos un código SMS.</h4>
+      <h3 className="form__subtitle">
+        Necesitamos validar tu número para continuar
+      </h3>
+      <h4 className="form__subtitle__2">
+        Ingresa tu número a 10 dígitos y te enviaremos un código SMS.
+      </h4>
       <InputField
         label="Número de celular"
         name="phone"

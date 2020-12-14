@@ -20,9 +20,9 @@
   position: relative;
   animation: dashboard_astronaut 2.25s alternate ease-out;
   animation-iteration-count: 1;
-  height: 400px;
+  height: 440px;
   width: auto;
-  max-height: 400px;
+  max-height: 440px;
 }
 
 @keyframes dashboard_astronaut {

@@ -10,10 +10,19 @@
   background-position: top;
 }
 
+.card__image__1 {
+  position: relative;
+  top: 20px;
+}
+
 .card__list {
-  max-width: 300px;
-  font-size: 20px;
-  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 20px 0 0;
+  max-width: 316px;
+  font-size: 23px;
+  font-weight: 600;
   list-style: none;
 }
 

@@ -8,7 +8,7 @@ export default function Navbar() {
       <header className={styles.navbar}>
         <Link href="/">
           <a>
-            <img src="/assets/img/logo.png" />
+            <img src={`${process.env.ASSET_PREFIX}/assets/img/logo.png`} />
           </a>
         </Link>
       </header>

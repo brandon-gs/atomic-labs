@@ -24,9 +24,10 @@
 
 .sucess__message {
   margin: 10px;
-  font-size: 21px;
+  font-size: 20px;
+  font-weight: 500;
   max-width: 380px;
   text-align: center;
   color: var(--white);
-  letter-spacing: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
 }

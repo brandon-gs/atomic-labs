@@ -49,7 +49,7 @@ export default function FeaturesTable() {
                     >
                       <img
                         alt="Marca de verificación"
-                        src="/assets/img/ic_check_tiny.png"
+                        src={`${process.env.ASSET_PREFIX}/assets/img/ic_check_tiny.png`}
                       />
                     </td>
                   );

@@ -6,7 +6,7 @@ export default function MoreInfo() {
   return (
     <div className={styles.moreInfo} onClick={() => scroll("about")}>
       <img
-        src="/assets/img/down_arrow.png"
+        src={`${process.env.ASSET_PREFIX}/assets/img/down_arrow.png`}
         alt="Flecha abajo"
         className={styles.moreInfo__image}
       />

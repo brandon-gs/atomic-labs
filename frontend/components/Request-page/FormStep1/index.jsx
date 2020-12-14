@@ -32,14 +32,14 @@ export default function FormStep1() {
     <>
       <form onSubmit={handleSubmit} className="form">
         <FormTitle normalText="te queremos" featuredText="conocer" />
-        <h3>
+        <h3 className="form__subtitle">
           Queremos saber que eres tú, por favor ingresa los siguientes datos:
         </h3>
         <InputField
           label="Nombre (s)"
           name="name"
           type="text"
-          img="/assets/img/ic_lock_24px.png"
+          img={`${process.env.ASSET_PREFIX}/assets/img/ic_lock_24px.png`}
           onChange={handleChange}
           onBlur={handleBlur}
           value={values.name}
@@ -50,7 +50,7 @@ export default function FormStep1() {
           label="Apellidos"
           name="lastnames"
           type="text"
-          img="/assets/img/ic_lock_24px.png"
+          img={`${process.env.ASSET_PREFIX}/assets/img/ic_lock_24px.png`}
           onChange={handleChange}
           onBlur={handleBlur}
           value={values.lastnames}
