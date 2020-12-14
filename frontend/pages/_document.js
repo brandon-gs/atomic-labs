@@ -13,7 +13,7 @@ class MyDocument extends Document {
         <Head>
           <link rel="stylesheet" href={`${prefix}/css/globals.css`} />
           <link rel="stylesheet" href={`${prefix}/css/nprogress.css`} />
-          <link rel="shortcut icon" href={`${prefix}/static/favicon.ico`} />
+          <link rel="shortcut icon" href={`${prefix}/favicon.ico`} />
         </Head>
         <body>
           <Main />
