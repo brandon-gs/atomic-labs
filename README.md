@@ -19,7 +19,7 @@ Finally Open [http://localhost:3000](http://localhost:3000) with your browser to
 
 ### Tech
 
-Dillinger uses a number of open source projects to work properly:
+This web app uses a number of open source projects to work properly:
 
 - Nextjs 10
 - React 17
