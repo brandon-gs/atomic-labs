@@ -1,0 +1,33 @@
+.moreInfo {
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: movedown 0.5s alternate infinite ease-out;
+}
+
+.moreInfo__text {
+  margin: 0;
+  color: var(--white);
+}
+
+.moreInfo__image {
+  width: 50px;
+}
+
+@keyframes movedown {
+  0% {
+    top: 10px;
+  }
+  100% {
+    top: -10px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .moreInfo__image {
+    width: 50px;
+  }
+}

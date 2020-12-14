@@ -5,14 +5,22 @@
   "scripts": {
     "dev": "next dev frontend/",
     "build": "next build frontend/",
-    "start": "next start frontend/"
+    "start": "next start frontend/ -p $PORT",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "clsx": "^1.1.1",
+    "framer-motion": "^2.9.5",
     "next": "10.0.3",
+    "nprogress": "^0.2.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-icons": "^4.1.0"
   },
   "devDependencies": {
     "eslint": "^7.15.0"
+  }, 
+  "engines": {
+    "node": ">=10"
   }
 }

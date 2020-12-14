@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.currentStep {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  padding: 8px 40px;
+  width: 100%;
+  height: 100%;
+  max-width: 1366px;
+  max-height: calc(100% + 100px);
+  min-height: 600px;
+}
+
+.currentStep__image__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.currentStep__image {
+  position: relative;
+  animation: astronaut 0.8s alternate infinite ease-out;
+  right: 50px;
+  z-index: -10;
+  max-height: 584px;
+}
+
+.currentStep__image__2 {
+  right: 150px;
+  animation-name: astronaut_2;
+}
+
+.currentStep__image__4 {
+  right: 0px;
+  animation-name: astronaut_4;
+}
+
+@keyframes astronaut {
+  0% {
+    top: 20px;
+  }
+  100% {
+    top: -20px;
+  }
+}
+
+@keyframes astronaut_2 {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: -60px;
+  }
+}
+
+@keyframes astronaut_4 {
+  0% {
+    top: 20px;
+  }
+  100% {
+    top: 60px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .currentStep {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 50px;
+    min-height: 880px;
+  }
+  .currentStep__image {
+    margin-top: 80px;
+    height: 400px;
+    right: auto;
+  }
+  @keyframes astronaut {
+    0% {
+      top: -30px;
+    }
+    100% {
+      top: -70px;
+    }
+  }
+}

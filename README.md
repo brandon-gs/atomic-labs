@@ -1,19 +1,39 @@
-## Getting Started
+# Atomic Labs Test
 
-First, run command to install all dependencies
+## Demo
 
-```bash
-npm install
-# or
-yarn install
+You can watch the page [here](https://atomiclabs.herokuapp.com/)
+
+### Getting Started
+
+Clone repository, install the dependencies and devDependencies and start the server.
+
+```sh
+$ git clone https://github.com/brandon-gs/atomic-labs.git
+$ cd atomic-labs
+$ npm install
+$ npm run dev
 ```
 
-After, run the development server:
+Finally Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Tech
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Dillinger uses a number of open source projects to work properly:
+
+- Nextjs 10
+- React 17
+- Framer-motion
+- NProgress
+
+### Screenshots
+
+<img src="https://github.com/brandon-gs/atomic-labs/blob/v1/docs/screenshot_1.png" />
+
+<img src="https://github.com/brandon-gs/atomic-labs/blob/v1/docs/screenshot_2.png" />
+
+<img src="https://github.com/brandon-gs/atomic-labs/blob/v1/docs/screenshot_3.png" />
+
+<img src="https://github.com/brandon-gs/atomic-labs/blob/v1/docs/screenshot_4.png" />
+
+<img src="https://github.com/brandon-gs/atomic-labs/blob/v1/docs/screenshot_5.png" />

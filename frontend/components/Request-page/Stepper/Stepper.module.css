@@ -1,0 +1,36 @@
+.stepper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 801px;
+  max-width: 801px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.steps__image {
+  margin-bottom: 8px;
+  width: 32px;
+}
+
+.stepper__progress,
+.stepper__progress__current {
+  height: 12px;
+  border-radius: 6px;
+  max-width: 801px;
+}
+
+.stepper__progress {
+  background-color: var(--white);
+  width: 100%;
+  z-index: 10;
+}
+
+.stepper__progress__current {
+  background-color: var(--orange);
+  z-index: 20;
+}
