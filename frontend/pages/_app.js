@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps, router }) {
           name="viewport"
           content="width=device-width, initial-scale=0.41, maximum-scale=1"
         />
-        <meta name="viewport" content="width=800" />
+        <meta name="viewport" content="width=1366" />
       </Head>
       <motion.div
         key={router.route}
